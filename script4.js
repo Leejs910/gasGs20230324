@@ -365,7 +365,7 @@ let img2 = document.querySelector('.gif_box2')
 function countTo() {
     startContent(modal2, 500, 0);
     modal2.style.display = 'grid';
-    img2.src = "./img/fuelinsert.gif";
+    img2.src = "./img/fuelInsert.gif";
     let from = 0;
     let to = money;
     let step = to > from ? 10 : -10;
