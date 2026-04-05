@@ -1,0 +1,243 @@
+/* 
+.contents_bg {
+    width: 32rem;
+    position: absolute;
+    bottom: 8rem;
+    left: 6rem;
+    top: 50%;
+    left: 15%;
+} */
+
+
+/* 
+@media (orientation: portrait) and (max-width: 43.6875rem) {
+    .contents_bg {
+
+        display: url("none");
+    }
+}
+
+@media (orientation: landscape) and (max-width: 43.6875rem) {
+    .contents_bg {
+        width: 7rem;
+        bottom: 1rem;
+        left: 1rem;
+        display: url("none");
+    }
+}
+
+@media (max-width: 62.5rem) and (min-width: 43.75rem) and (max-height: 39.0625rem) and (min-height: 27.375rem) {
+    .contents_bg {
+        width: 10rem
+    }
+}
+
+@media (max-width: 39.0625rem) and (min-width: 27.375rem) and (max-height: 62.5rem) and (min-height: 43.75rem) {
+    .contents_bg {
+        width: 12rem;
+        bottom: 2rem;
+        left: 2rem
+    } */
+
+
+
+
+.contents_bg {
+    background-image: url("./img/skLog.svg");
+    background-repeat: no-repeat;
+    background-position: -15% 100px;
+
+}
+
+
+.innercontent {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+
+
+
+@media (max-width: 575.98px) {
+
+    .innercontent {
+        margin-top: .5rem;
+        margin-bottom: .5rem;
+        font-size: 30px;
+    }
+    .contents_bg {
+        background-image: url("none");
+    }
+
+    .space{
+        margin: 1.2rem;
+    }
+    .space2{
+        margin: 0.6rem;
+    }
+    .left_navis, .headspace {
+        display: none;
+    }
+    .footer{
+        display: none;
+        margin: 0rem;
+    }
+    .money_bt{
+        font-size: 1.1rem;
+        /* width: 27%; */
+    }
+
+}
+
+/* // `md` applies to small devices (landscape phones, less than 768px) */
+@media (min-width:576px) and (max-width: 767.98px) {
+    .innercontent {
+        margin-top: .5rem;
+        margin-bottom: .5rem;
+    }
+    .contents_bg {
+        background-image: url("none");
+    }
+
+    .space{
+        margin: 2rem;
+    }
+    .space2{
+        margin: 1.2rem;
+    }
+    .left_navis, .headspace {
+        display: none;
+    }
+    .footer{
+        margin: 2rem;
+        margin-bottom: 0rem;
+    }
+}
+
+/* // `lg` applies to medium devices (tablets, less than 992px) */
+@media (min-width:768px) and (max-width: 991.98px) {
+    .innercontent {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    .space{
+        margin: 3rem;
+    }
+    .space2{
+        margin: 2.4rem;
+    }
+    .left_navis, .headspace {
+        display: none;
+    }
+    .footer{
+        margin: 3rem;
+        margin-bottom: 0rem;
+    }
+
+}
+
+/* // `xl` applies to large devices (desktops, less than 1200px) */
+@media (min-width:992px) and (max-width: 1199.98px) {
+    .innercontent {
+        margin-top: 1.5rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .space{
+        margin: 4rem;
+    }
+    .space2{
+        margin: 2.4rem;
+    }
+    .footer{
+        margin: 4rem;
+        margin-bottom: 0rem;
+    }
+}
+
+/* // `xxl` applies to x-large devices (large desktops, less than 1400px) */
+@media (min-width:1120px) and (max-width: 1399.98px) {
+    .innercontent {
+        margin-top: 2rem;
+        margin-bottom: 8rem;
+    }
+
+    .space{
+        margin: 5rem;
+    }
+    .space2{
+        margin: 2.6rem;
+    }
+    .footer{
+        margin: 5rem;
+        margin-bottom: 0rem;
+    }
+    .etc_bt{
+        width: 34.33333333%;
+    }
+
+}
+
+@media (min-width: 1400px) {
+    .innercontent {
+        margin-top: 2rem;
+        margin-bottom: 8rem;
+        
+    }
+
+    .space{
+        margin: 5rem;
+    }
+    .space2{
+        margin: 2.6rem;
+    }
+    .footer{
+        margin: 5rem;
+        margin-bottom: 0rem;
+    }
+    .etc_bt{
+        width: 34.33333333%;
+    }
+}
+
+
+/* 
+@media (max-width:360px) {
+    .contents_bg {
+        background-image: url("none");
+
+    }
+
+}
+
+@media (min-width:361px) and (max-width:399px) {
+    .contents_bg {
+        background-image: url("none");
+    }
+
+}
+
+@media (min-width:400px) and (max-width:439px) {
+    .contents_bg {
+        background-image: url("none");
+    }
+}
+
+@media (min-width:440px) and (max-width:479px) {
+    .contents_bg {
+        background-image: url("none");
+    }
+}
+
+@media (min-width:480px) and (max-width:519px) {
+    .contents_bg {
+        background-image: url("none");
+    }
+}
+
+@media (min-width:519px) and (max-width: 767.98px) {
+    .contents_bg {
+        background-image: url("none");
+    }
+} */
