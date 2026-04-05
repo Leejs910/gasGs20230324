@@ -264,7 +264,7 @@ function creditCardInsert(element) {
 
 function creditCardAfter() {
     article5BtA.removeEventListener('click', creditCardAfter);
-    img.src = "./img/cardinsert.gif";
+    img.src = "./img/cardInsert.gif";
     startContent(modal1, 500, 0);
     modal1.style.display = 'grid';
     let load2 = document.querySelector('.loader2')
